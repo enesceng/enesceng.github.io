@@ -1,69 +1,126 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CENGİZ LIFE İNŞAAT</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #ffffff;
-      color: #000000;
-      padding: 20px;
+<!DOCTYPE html><html lang="tr"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CENGİZ LIFE İNŞAAT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }body {
+        background-color: #000;
+        color: #fff;
+        line-height: 1.6;
     }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    h1 {
-      font-size: 32px;
-      margin-top: 20px;
-    }
-    .slogan {
-      color: #FFD700;
-      font-weight: bold;
-      font-size: 20px;
-    }
-    .bolum-baslik {
-      color: #FFD700;
-      font-weight: bold;
-      font-size: 22px;
-      margin-top: 30px;
-    }
-    p {
-      font-size: 16px;
-      margin: 10px 0;
-    }
-    a {
-      color: #000;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
 
-  <!-- Logo -->
-  <img src="logo.png" alt="Cengiz Life İnşaat Logosu">
+    header {
+        background-color: #000;
+        text-align: center;
+        padding: 40px 20px 20px;
+    }
 
-  <!-- Başlık -->
-  <h1>CENGİZ LIFE İNŞAAT</h1>
-  <div class="slogan">Kalite Temelden Başlar</div>
+    header img {
+        width: 150px;
+        margin-bottom: 15px;
+    }
 
-  <!-- Hakkımızda -->
-  <p><strong>Kuruluş:</strong> 2010 yılından beri inşaat sektöründe faaliyet göstermektedir. Her projemizde kalite ve müşteri memnuniyetini ön planda tutarak sağlam temeller üzerinde modern yapılar inşa ediyoruz.</p>
+    header h1 {
+        font-size: 36px;
+        color: #d4af37;
+        margin-bottom: 10px;
+    }
 
-  <p><strong>Adres:</strong> Niğde Merkez, İlhanlı Mahallesi, 157. Sokak</p>
-  <p><strong>Telefon:</strong> 0551 839 13 27</p>
-  <p><strong>WhatsApp:</strong> <a href="https://wa.me/905518391327" target="_blank">Hemen Mesaj Gönder</a></p>
-  <p><strong>Instagram:</strong> <a href="https://instagram.com/cengi.z5115" target="_blank">@cengi.z5115</a></p>
+    header p {
+        font-size: 18px;
+        color: #ccc;
+    }
 
-  <!-- Projeler -->
-  <div class="bolum-baslik">Projelerimiz</div>
-  <img src="proje1.jpg" alt="Proje Görseli">
+    section {
+        padding: 50px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
 
-</body>
-</html>
+    section h2 {
+        font-size: 28px;
+        color: #d4af37;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #d4af37;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    section p {
+        font-size: 18px;
+        color: #eee;
+        margin-bottom: 20px;
+    }
+
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .images img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        border: 1px solid #444;
+    }
+
+    footer {
+        background-color: #111;
+        color: #ccc;
+        text-align: center;
+        padding: 30px 10px;
+    }
+
+    .contact {
+        margin-top: 15px;
+    }
+
+    .contact a {
+        color: #d4af37;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .contact a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+</head><body>
+    <header>
+        <img src="logo.png" alt="Cengiz Life İnşaat Logo">
+        <h1>CENGİZ LIFE İNŞAAT</h1>
+        <p>Kalite Temelden Başlar</p>
+    </header><section>
+    <h2>Hakkımızda</h2>
+    <p>2010 yılından beri inşaat sektöründe faaliyet göstermektedir. Müşteri memnuniyetini ön planda tutarak, modern ve sağlam yapılar inşa etmeyi hedefler. Kalite, güven ve estetiği bir araya getirerek yaşam alanlarını dönüştürür.</p>
+</section>
+
+<section>
+    <h2>Projelerimiz</h2>
+    <div class="images">
+        <img src="insaat1.jpg" alt="Proje 1">
+        <img src="insaat2.jpg" alt="Proje 2">
+    </div>
+</section>
+
+<footer>
+    <p>İletişim</p>
+    <div class="contact">
+        <a href="tel:05518391327">📞 0551 839 13 27</a>
+        <a href="https://wa.me/905518391327" target="_blank">💬 WhatsApp ile iletişim</a>
+        <a href="https://www.instagram.com/cengi.z5115" target="_blank">📸 Instagram: cengi.z5115</a>
+    </div>
+</footer>
+
+</body></html>
