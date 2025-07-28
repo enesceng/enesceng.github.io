@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CENGİZ LIFE İNŞAAT</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
       margin: 0;
-      padding: 20px;
-      background: #fff;
-      color: #000;
+      padding: 0;
       text-align: center;
     }
-
-    h1 {
-      font-size: 32px;
-      font-weight: bold;
+    .logo {
+      width: 100%;
+      max-width: 300px;
+      margin-top: 20px;
     }
-
-    h2 {
-      font-size: 24px;
+    .slogan {
       color: gold;
+      font-size: 20px;
       font-style: italic;
-      margin-top: -10px;
+      margin-top: 10px;
     }
-
     .section {
+      padding: 20px;
+    }
+    .highlight {
+      font-weight: bold;
+      color: gold;
+      font-size: 22px;
       margin-top: 30px;
     }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 15px;
+    .contact p {
+      margin: 5px 0;
     }
-
-    .bold {
-      font-weight: bold;
-    }
-
-    .highlight {
-      color: gold;
-      font-weight: bold;
+    img.proje {
+      width: 90%;
+      max-width: 500px;
+      margin-top: 10px;
+      border: 2px solid gold;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
-  <img src="IMG_20250727_021633_170.webp" alt="CENGİZ LIFE İNŞAAT Logosu">
-  <h1>CENGİZ LIFE İNŞAAT</h1>
-  <h2>Kalite Temelden Başlar</h2>
+
+  <img src="logo.png" alt="Logo" class="logo" />
 
   <div class="section">
-    <p><span class="bold">Kuruluş:</span> 2010 yılından beri inşaat sektöründe faaliyet göstermektedir. Her projemizde kalite ve müşteri memnuniyetini ön planda tutarak sağlam temeller üzerinde modern yapılar inşa ediyoruz.</p>
-    <p><span class="bold">Adres:</span> Niğde Merkez, İlhanlı Mahallesi, 157. Sokak</p>
-    <p><span class="bold">Telefon:</span> 0551 839 13 27</p>
-    <p><span class="bold">WhatsApp:</span> Hemen Mesaj Gönder</p>
-    <p><span class="bold">Instagram:</span> @cengi.z5115</p>
+    <h1>CENGİZ LIFE İNŞAAT</h1>
+    <div class="slogan">Kalite Temelden Başlar</div>
+    <p><strong>Kuruluş:</strong> 2010 yılından beri inşaat sektöründe faaliyet göstermektedir. Her projemizde kalite ve müşteri memnuniyetini ön planda tutarak sağlam temeller üzerinde modern yapılar inşa ediyoruz.</p>
+    <p><strong>Adres:</strong> Niğde Merkez, İlhanlı Mahallesi, 157. Sokak</p>
+    <div class="contact">
+      <p><strong>Telefon:</strong> 0551 839 13 27</p>
+      <p><strong>WhatsApp:</strong> Hemen Mesaj Gönder</p>
+      <p><strong>Instagram:</strong> @cengi.z5115</p>
+    </div>
   </div>
 
-  <div class="section">
-    <h2 class="highlight">Projelerimiz</h2>
-    <img src="Screenshot_2025-07-26-18-23-43-348_com.android.chrome.jpg" alt="Proje Görseli">
-  </div>
+  <div class="highlight">Projelerimiz</div>
+
+  <img class="proje" src="<!-- BURAYA GÖRSEL LİNKİNİ YAPIŞTIR -->" alt="Proje Görseli" />
+
 </body>
 </html>
